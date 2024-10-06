@@ -58,7 +58,7 @@ const todoList = () => {
         if(ob.completed==true)
             s="[x] ";
         else
-            s+="[] ";
+            s+="[ ] ";
         s+=`${ob.title} `;
         if(ob.dueDate!=today)
             s+=ob.dueDate;
